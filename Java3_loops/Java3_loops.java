@@ -173,17 +173,17 @@ package Java3_loops;
 
 // Q2. print the table of a number input by the user
     
-import java.util.*;
-public class Java3_loops {
-    public static void main(String[] args) {
-        // write your code here
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+// import java.util.*;
+// public class Java3_loops {
+//     public static void main(String[] args) {
+//         // write your code here
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
 
-        for( int i = 1; i<=10; i++){
-          System.out.println(i*n);
-        }
+//         for( int i = 1; i<=10; i++){
+//           System.out.println(i*n);
+//         }
 
-    }
-}
+//     }
+// }
 
