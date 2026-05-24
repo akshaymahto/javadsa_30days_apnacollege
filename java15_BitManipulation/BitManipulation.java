@@ -47,17 +47,17 @@ package java15_BitManipulation;
 
 // Clear Bit
 
-import java.util.*;
-public class BitManipulation {
-  public static void main(String args[]) {
-     int n = 5; //0101
-     int pos = 2;
-     int bitMask = 1<<pos;
-     int newBitMask = ~(bitMask);
-     int newNumber = newBitMask & n;
-     System.out.println(newNumber);
-  }
-}
+// import java.util.*;
+// public class BitManipulation {
+//   public static void main(String args[]) {
+//      int n = 5; //0101
+//      int pos = 2;
+//      int bitMask = 1<<pos;
+//      int newBitMask = ~(bitMask);
+//      int newNumber = newBitMask & n;
+//      System.out.println(newNumber);
+//   }
+// }
 
 
 
@@ -68,7 +68,7 @@ public class BitManipulation {
 // import java.util.*;
 
 
-// public class Bits {
+// public class BitManipulation {
 //    public static void main(String args[]) {
 //        Scanner sc = new Scanner(System.in);
 //        int oper = sc.nextInt();
